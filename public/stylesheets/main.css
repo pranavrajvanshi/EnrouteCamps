@@ -1,0 +1,27 @@
+body{
+    font-family: "Spartan";
+}
+
+.caption{
+    font-size: medium;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    width: auto; 
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my_col{
+    margin-bottom: 20px;
+}
+
+.jumbotron{
+    background: #2991ce !important;
+}
+
+

@@ -1,0 +1,44 @@
+<%- include("../partials/header") %> 
+<!-- <link rel="stylesheet" href="main.css"> -->
+
+<div class="container">
+    
+    <div class="jumbotron mt-3 shadow"> 
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 align="center" style="color:rgb(14, 2, 2)">Welcome to Campgrounds</h1>
+            </div>
+            <div class="row justify-content-center">
+                <p style="color:rgb(14, 1, 1)">Make your joruney more beautiful with us</p>
+            </div>
+            <div class="row justify-content-center">
+                <a class="btn btn-primary btn-lg shadow" href="/index/new"> Add a new campground </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="row justify-content-center text-center">
+        
+          <%  campgrounds.forEach(function(campground){ %>
+            <div class="col-lg-4 col-md-6 my_col align-self-center" >
+          
+                <img class="img-fluid shadow-sm" src= <%=campground.Image%> >
+                <div class="caption p-2">
+                    <h6><%= campground.Name%></h6> 
+                </div>
+                <p>
+                    <a href="/index/<%=campground._id%>" class = "caption btn btn-primary">More Info</a>
+                </p>
+                
+            </div>
+
+        <% }); %>
+
+    </div>
+    
+
+</div>
+
+
+<%- include('../partials/footer') %>
