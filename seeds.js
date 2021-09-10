@@ -38,7 +38,7 @@ function seedDB() {
                         //Create a new comment
                         Comment.create({
                             content:"Hello this is a comment",
-                            author:"Mehul Chaturvedi"
+                            author:"Pranav Rajvanshi"
                         }, function (err, comment) { 
                             if (err) {
                                 console.log(err);
