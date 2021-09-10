@@ -1,5 +1,5 @@
 {
-  "name": "yelp-camp",
+  "name": "enroutecamps",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Mehulcoder/Yelp-Camp.git"
   },
-  "author": "Mehul Chaturvedi",
+  "author": "Pranav Rajvanshi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mehulcoder/Yelp-Camp/issues"
