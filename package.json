@@ -13,9 +13,7 @@
   },
   "author": "Pranav Rajvanshi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mehulcoder/Yelp-Camp/issues"
-  },
+  
   "homepage": "https://github.com/Mehulcoder/Yelp-Camp#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
